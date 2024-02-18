@@ -15,11 +15,11 @@ This paper proposes a solution for persuasion detection in both these scenarios 
 
 ### System Description
 
-Subtask 1: We fine-tuned a BERT model on the provided data.
+**Subtask 1**: We fine-tuned a BERT model on the provided data.
 
-Subtask 2a: The backbone of our solution is a BERT + ViT architecture where the BERT based model creates embeddings from the text data while the ViT creates features from the image data, we concatenate the two embeddings and the resulting one is passed to a Fully connected Layer to obtain the scores for each propaganda method.
+**Subtask 2a**: The backbone of our solution is a BERT + ViT architecture where the BERT based model creates embeddings from the text data while the ViT creates features from the image data, we concatenate the two embeddings and the resulting one is passed to a Fully connected Layer to obtain the scores for each propaganda method.
 
-Subtask 2b: We used a similar architecture to Subtask 2a but where the final Fully Connected Layer does a binary classification on whether the provided meme is propagandistic or non-propagandistic.
+**Subtask 2b**: We used a similar architecture to Subtask 2a but where the final Fully Connected Layer does a binary classification on whether the provided meme is propagandistic or non-propagandistic.
 
 ---
 
