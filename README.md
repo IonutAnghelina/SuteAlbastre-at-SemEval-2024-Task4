@@ -21,6 +21,9 @@ This paper proposes a solution for persuasion detection in both these scenarios 
 
 **Subtask 2b**: We used a similar architecture to Subtask 2a but where the final Fully Connected Layer does a binary classification on whether the provided meme is propagandistic or non-propagandistic.
 
+<img src="https://github.com/IonutAnghelina/SuteAlbastre-at-SemEval-2024-Task4/assets/46871581/05e0301b-bd54-4e7f-a4f4-3d75e69d2889" width="500">
+
+
 ---
 
 ### Citation
