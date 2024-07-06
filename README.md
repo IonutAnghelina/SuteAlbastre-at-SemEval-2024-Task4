@@ -1,6 +1,5 @@
 # SuteAlbastre-at-SemEval-2024-Task4
 This Github repository contains all algorithms and models used by the SuteAlbastre team at SemEval 2024 - Task4
-
 The final submission paper can be found at: https://aclanthology.org/2024.semeval-1.68.pdf
 ---
 
